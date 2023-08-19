@@ -38,6 +38,60 @@ the steps necessary to build a financially stable future for themselves and thei
 - As a user, I want to be able to reload both my budget and expense tracker from file once I start the application (if I
   so choose)
 
+## Getting Started
+Before you run the program, make sure you have Java and Maven installed.
+
+To install Maven, follow these steps:
+
+1. **Check for Java Installation:** Maven is a Java-based tool, so you'll need Java installed on your system. Open your terminal or command prompt and run the following command to check if Java is already installed:
+
+   ```bash
+   java -version
+   ```
+
+   If you see Java's version information, it means Java is already installed. If not, you'll need to [download and install Java](https://www.oracle.com/java/technologies/javase-downloads.html) first.
+
+2. **Download Apache Maven:**
+
+   Visit the [official Apache Maven download page](https://maven.apache.org/download.cgi) and download the latest binary zip archive of Maven. Choose the version that fits your operating system.
+
+3. **Extract Maven:**
+
+   Once the download is complete, extract the Maven archive to a directory on your system. For example, on Unix-based systems, you can use the following command:
+
+   ```bash
+   tar -xzvf apache-maven-{version}-bin.tar.gz
+   ```
+
+   On Windows, you can use a tool like [7-Zip](https://www.7-zip.org/) to extract the archive.
+
+4. **Set Environment Variables (Optional):**
+
+   To use Maven from the command line globally, you can set the `M2_HOME` and `PATH` environment variables. Add the following lines to your shell profile file (e.g., `.bashrc`, `.bash_profile`, or `.zshrc` on Unix-based systems, or through Environment Variables on Windows):
+
+   ```bash
+   export M2_HOME=/path/to/your/maven
+   export PATH=$M2_HOME/bin:$PATH
+   ```
+
+   Replace `/path/to/your/maven` with the actual path to the Maven installation directory.
+
+5. **Verify Maven Installation:**
+
+   Open a new terminal or command prompt and run the following command to verify that Maven is installed correctly:
+
+   ```bash
+   mvn -version
+   ```
+
+   You should see the Maven version and other related information if the installation was successful.
+
+To run the program, go to the root directory of this repository and type the following in your command line:
+
+1. ``mvn compile``
+2. ``chmod +x run.sh`` (first time only)
+3. ``./run.sh``
+
 ## Instructions for Grader
 
 - To add a budget item to your budget, go to the Budget tab and click the "Add Item" button in the toolbar. In a new dialog, select the category of the new item, enter a spending limit, and click "OK".
