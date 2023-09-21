@@ -92,20 +92,51 @@ To run the program, go to the root directory of this repository and type the fol
 2. ``chmod +x run.sh`` (first time only)
 3. ``./run.sh``
 
-## Instructions for Grader
+## Instructions
 
-- To add a budget item to your budget, go to the Budget tab and click the "Add Item" button in the toolbar. In a new dialog, select the category of the new item, enter a spending limit, and click "OK".
-- To edit a budget item, go to the Budget tab, select the item in the table, and click the "Edit Item" button in the toolbar, or double-click the item. In a new dialog, set the new spending limit of the category, and click "OK".
-- To delete a budget item, go to the Budget tab, select the item in the table, and click the "Delete Item" button in the toolbar.
-- To add an expense to your spending tracker, go to the Spending Tracker tab and click the "Add Expense" button in the toolbar. In a new window, enter all information about the expense, and click "OK".
-- To edit an expense, go to the Spending Tracker tab, select the expense in the tab, and click the "Edit Expense" button in the toolbar, or double-click the item. In a new dialog, change any details of the expense you want, and click "OK".
-- To view your budget, go to the Budget tab, where you will see a table of your budget items, as well as a pie chart showing how much is allocated to each category. You can switch between viewing limits of each category in the pie chart as amounts or percentages at the bottom of the tab.
-- To view your expense tracker, go to the Spending Tracker tab where you will see a table listen your expenses.
-- To filter your view of expenses by category/date, use the Filter View panel in the Spending Tracker tab.
-- To compare your month's expenses with your budget, go to the Compare Tab where you can view a simple comparison table.
-- You can locate my visual component in the Budget tab as a pie chart representing your budget.
-- You can save the state of my application in a separate dialog once you exit the GUI.
-- You can reload the state of my application in a separate dialog once you start the GUI.
+To add a budget item to your budget, go to the Budget tab and click the "Add Item" button in the toolbar. In a new dialog, select the category of the new item, enter a spending limit, and click "OK".
+
+![](screenshots/add_item.png)
+
+To edit a budget item, go to the Budget tab, select the item in the table, and click the "Edit Item" button in the toolbar, or double-click the item. In a new dialog, set the new spending limit of the category, and click "OK".
+
+![](screenshots/edit_item.png)
+
+To delete a budget item, go to the Budget tab, select the item in the table, and click the "Delete Item" button in the toolbar.
+
+![](screenshots/delete_item.png)
+
+To add an expense to your spending tracker, go to the Spending Tracker tab and click the "Add Expense" button in the toolbar. In a new window, enter all information about the expense, and click "OK".
+
+![](screenshots/add_expense.png)
+
+To edit an expense, go to the Spending Tracker tab, select the expense in the tab, and click the "Edit Expense" button in the toolbar, or double-click the item. In a new dialog, change any details of the expense you want, and click "OK".
+
+![](screenshots/edit_expense.png)
+
+To view your budget, go to the Budget tab, where you will see a table of your budget items, as well as a pie chart showing how much is allocated to each category. You can switch between viewing limits of each category in the pie chart as amounts or percentages at the bottom of the tab.
+
+![](screenshots/view_budget.png)
+
+To view your expense tracker, go to the Spending Tracker tab where you will see a table listen your expenses.
+
+![](screenshots/view_expenses.png)
+
+To filter your view of expenses by category/date, use the Filter View panel in the Spending Tracker tab.
+
+![](screenshots/filter_view.png)
+
+To compare your month's expenses with your budget, go to the Compare Tab where you can view a simple comparison table.
+
+![](screenshots/compare.png)
+
+You can save the state of this application in a separate dialog once you exit the GUI.
+
+![](screenshots/save_dialog.png)
+
+You can reload the state of this application in a separate dialog once you start the GUI.
+
+![](screenshots/load_dialog.png)
 
 ## Phase 4: Task 2
 
