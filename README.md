@@ -1,3 +1,4 @@
+[![Java CI with Maven](https://github.com/azoght/cpsc_210_project/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/azoght/cpsc_210_project/actions/workflows/maven.yml)
 # Easy Budget!
 
 ## Proposal
